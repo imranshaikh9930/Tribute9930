@@ -227,5 +227,113 @@ html {
   object-fit: cover;
   margin-top: 15px;
 }
+@media  screen and (min-width: 1000px) {
+  .heading {
+  display: flex;
+  margin: 15px;
+  padding: 15px;
+  justify-content: space-between;
+}
+.tags {
+  display: flex;
+  gap: 25px;
+  color: white;
+  flex-direction: row;
+  border: none;
+}
+.name h1 {
+  position: absolute;
+  font-weight: 800;
+  font-size: 50px;
+  top: 50%;
+  left: 5rem;
+  animation: sample1 5s infinite alternate;
+}
+.tags a {
+  position: relative;
+  color: white;
+}
+.Section1 h1 {
+  text-align: center;
+  margin: 10px;
+}
 
+.image img {
+  position: relative;
+  height: 350px;
+  left: 680px;
+  bottom: 5px;
+  border-radius: 70%;
+}
+.Section1 p {
+  position: absolute;
+  top: 400px;
+  left: 30rem;
+  font-size: 1.5rem;
+}
+
+.subcontainer1 p {
+  position: relative;
+  right: -75%;
+  margin-top: 10px;
+  line-height: 25px;
+}
+#link {
+  background-color: beige;
+  color: rgb(37, 34, 34);
+}
+.Section1,
+.Section2,
+.Section3,
+.Section4 {
+  border: 2px solid white;
+  margin: 15px;
+}
+.Section2 h1 {
+  text-align: center;
+  margin: 15px;
+}
+.Section3 {
+  text-align: center;
+}
+
+.honours h1 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.honour-name p {
+  margin-top: 10px;
+  line-height: 30px;
+}
+.Section4 {
+  text-align: center;
+  height: auto;
+}
+
+.container4 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.container4 img {
+  width: 180px;
+  height: 250px;
+  object-fit: cover;
+  margin-top: 15px;
+}
+
+
+@keyframes sample1 {
+  from {
+    font-size: 30px;
+    letter-spacing: 3px;
+  }
+  to {
+    font-size: 45px;
+    letter-spacing: 3px;
+  }
+}
+
+  
+
+}
 
