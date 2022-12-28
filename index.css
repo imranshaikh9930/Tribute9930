@@ -122,3 +122,110 @@ html {
     letter-spacing: 6px;
   }
 }
+
+@media  screen and (min-width: 600px){
+  
+  .heading {
+  display: flex;
+  margin: 5px;
+  padding: 5px;
+  justify-content: space-between;
+}
+.tags {
+  display: flex;
+  gap: 10px;
+  color: white;
+  flex-direction: row;
+  border: none;
+}
+.name h1 {
+  position: absolute;
+  font-weight: 100;
+  font-size: 2px;
+  top: 12.5rem;
+  left: 2rem;
+  animation: sample1 5s infinite alternate;
+}
+.tags a {
+  position: relative;
+  color: white;
+}
+.Section1 h1 {
+  text-align: center;
+  margin: 7.5px;
+}
+
+.image img {
+  position: relative;
+  height: 140px;
+  left: 450px;
+  bottom: 15px;
+  border-radius: 70%;
+}
+.Section1 p {
+  position: absolute;
+  top: 250px;
+  left: 20rem;
+  font-size: 0.6rem;
+}
+
+.subcontainer1 p {
+  position: relative;
+  right: -75%;
+  margin-top: 10px;
+  line-height: 25px;
+}
+#link {
+  background-color: beige;
+  color: rgb(37, 34, 34);
+}
+@keyframes sample1 {
+  from {
+    font-size: 30px;
+    letter-spacing: 1.5px;
+  }
+  to {
+    font-size: 36px;
+    letter-spacing: 3px;
+  }
+}
+.Section1,
+.Section2,
+.Section3,
+.Section4 {
+  border: 2px solid white;
+  margin: 15px;
+}
+.Section2 h1 {
+  text-align: center;
+  margin: 15px;
+}
+.Section3 {
+  text-align: center;
+}
+
+.honours h1 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.honour-name p {
+  margin-top: 10px;
+  line-height: 30px;
+}
+.Section4 {
+  text-align: center;
+  height: auto;
+}
+
+.container4 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.container4 img {
+  width: 120px;
+  height: 140px;
+  object-fit: cover;
+  margin-top: 15px;
+}
+
+
