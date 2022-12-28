@@ -40,7 +40,7 @@ html {
 }
 
 .image img {
-  position: relative;
+ position: relative;
   height: 550px;
   left: 940px;
   bottom: 5px;
@@ -123,7 +123,9 @@ html {
   }
 }
 
-@media  screen and (min-width: 600px){
+
+
+@media  screen and (min-width: 600px) and (max-width : 1000px){
   
   .heading {
   display: flex;
@@ -153,19 +155,20 @@ html {
 .Section1 h1 {
   text-align: center;
   margin: 7.5px;
+  
 }
 
 .image img {
   position: relative;
   height: 140px;
-  left: 450px;
+  left: 80%;
   bottom: 15px;
   border-radius: 70%;
 }
 .Section1 p {
   position: absolute;
-  top: 250px;
-  left: 20rem;
+  top: 45%;
+  left: 50%;
   font-size: 0.6rem;
 }
 
@@ -227,7 +230,11 @@ html {
   object-fit: cover;
   margin-top: 15px;
 }
-@media  screen and (min-width: 1000px) {
+
+
+  
+}
+@media  screen and (min-width: 1000px) and (max-width :1300px) {
   .heading {
   display: flex;
   margin: 15px;
@@ -260,16 +267,16 @@ html {
 
 .image img {
   position: relative;
-  height: 350px;
-  left: 680px;
+  height: 300px;
+  left: 80%;
   bottom: 5px;
   border-radius: 70%;
 }
 .Section1 p {
   position: absolute;
   top: 400px;
-  left: 30rem;
-  font-size: 1.5rem;
+  left: 35rem;
+  font-size: 1rem;
 }
 
 .subcontainer1 p {
@@ -336,4 +343,3 @@ html {
   
 
 }
-
